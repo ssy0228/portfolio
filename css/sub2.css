@@ -1,0 +1,68 @@
+/* common */
+
+/* layout */
+
+
+/* banner */
+/* div.ani1 { padding-top: 31.6vh; font-size: 15rem; position: absolute; left: 3vw; font-weight: 600; } 
+div.ani2 { padding-top: 47.6vh; font-size: 5rem; position: absolute; left: 39vw; -webkit-animation: drowin2 ease-in 1s 0s 1; 
+          -moz-animation: drowin2 ease-in 1s 0s 1; -o-animation: drowin2 ease-in 1s 0s 1; animation: drowin2 ease-in 1s 0s 1; } 
+
+
+ @keyframes drowin2 { 
+ 0% { left: 60vw; } 
+ 100% { left: 39vw; } 
+ } */
+
+
+ .content1 { display: flex; flex-flow: row nowrap; }
+
+ div.self,
+ div.skill_set { width: 50%; height: 100%; padding: 15.6vh 3vw; }
+ div.self { background-color: rgba(221, 221, 221, 0.144); }
+ .self>h2,
+ .skill_set>h2 { width: 50%; font-size: 3rem; font-weight: 700; font-family: 'Libre Baskerville', serif; margin-bottom: 5vh; }
+
+ div.spec { width: 100%; height: 70%; font-size: 2rem; text-align: left; margin: 0 auto; border-top-left-radius: 20px; border-top-right-radius: 20px;
+            padding: 5vh 3vw; font-family: 'Nanum Gothic', sans-serif; }
+ 
+     
+
+ .spec>ul { display: flex; }
+ .spec>ul:first-of-type { flex-flow: column nowrap; margin-bottom: 15vh; }
+ .spec>ul:first-of-type>li { display: inline-flex; flex-flow: column nowrap; }
+ .spec>ul:first-of-type>li>span { margin-bottom: 1vh; }
+  span.where { font-size: 1.2rem; color:rgba(240, 255, 255, 0.493); text-align: right; margin: 1vh 0 2vh; }
+
+
+
+
+ .spec>ul:nth-of-type(2) { justify-content: space-evenly; } 
+
+
+
+
+ .skill_set>ul { width: 100%; height: 100%; display: flex; flex-flow: column nowrap; margin: 0 auto; }
+ .skill_set>ul>li { width: 100%; height: 15%; display: flex; flex-flow: row nowrap; }
+ .skill_set>ul>li>span.mark{ width: 10%; height: 90%; margin-right: auto; overflow: hidden; display: flex; }
+ .skill_set>ul>li:nth-child(4)>span.mark { display: block; padding: 3% 0; }
+ .skill_set>ul>li>span.mark>img { margin: 0 auto; }
+ .skill_set>ul>li>span.score { padding: 3%; }
+ .skill_set>ul>li>div.progress_contain { width: 85%; height: 30%; background-color: rgba(240, 255, 255, 0.493); border-radius: 20px; margin-top: 3%;} 
+ .skill_set>ul>li>div.progress_contain>span.percentage { display: block; height: 100%; background-color: rgba(255, 255, 0, 0.8); border-radius: 20px; 
+                                                        -webkit-animation: progress ease-in 1.5s 0.5s 1; -moz-animation: progress ease-in 1.5s 0.5s 1; -o-animation: progress ease-in 1.5s 0.5s 1; animation: progress ease-in 1.5s 0.5s 1;}
+ .skill_set>ul>li>div.progress_contain>span.percentage.html5 { width: 90%; }
+ .skill_set>ul>li>div.progress_contain>span.percentage.css3 { width: 90%; }
+ .skill_set>ul>li>div.progress_contain>span.percentage.sass { width: 90%; }
+ .skill_set>ul>li>div.progress_contain>span.percentage.jquery { width: 50%; }
+ .skill_set>ul>li>div.progress_contain>span.percentage.js { width: 60%; }
+ .skill_set>ul>li>div.progress_contain>span.percentage.react { width: 70%; }
+
+ @keyframes progress {
+  from {
+      width: 0%;
+  }
+}
+
+
+

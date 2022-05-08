@@ -1,0 +1,54 @@
+
+/* common */
+
+/* layout */
+
+/* banner */
+
+
+
+
+/* content */
+.content { padding: 15.6vh 0; }
+
+.content>h2 { width: 100%; font-family: 'Libre Baskerville', serif; font-size: 3.75rem; text-align: right; padding: 0 22vw; margin-bottom: 30px; } 
+
+.content>div.container { width: 100%; padding: 0 calc(100% - 80vw); box-sizing: border-box; } 
+
+.container fieldset { width: 33vw; display: flex; flex-direction: column; } 
+
+input[type='text'],
+input[type='email'],
+input[type='submit'],
+textarea { outline: none; border: none; padding: 10px; box-sizing: border-box; border-radius: 8px; font-size: 1rem; font-family: 'Nunito', sans-serif; 
+          -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; } 
+
+input[type='text']:hover, 
+input[type='email']:hover,
+input[type='submit']:hover
+textarea:hover,
+input[type='text']:focus, 
+input[type='email']:focus,
+input[type='submit']:focus,
+textarea:focus { box-shadow: 2px 2px 3px rgba(255, 255, 0, 0.507); cursor: none; pointer-events: auto; } 
+
+.container input::-moz-placeholder, 
+textarea::-moz-placeholder { font-size: 1rem; } 
+
+.container input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder { font-size: 1rem; } 
+
+.container input::placeholder, 
+textarea::placeholder { font-size: 1rem; } 
+
+.container textarea::placeholder { font-family: 'Nunito', sans-serif; } 
+
+.container input { height: 60px; margin-bottom: 10px; } 
+
+.container input[type="submit"] { font-size: 1.3rem; color:rgb(80, 80, 80); font-weight: 600; background-color: #ff0; cursor: none; } 
+
+.no_resize { resize: none; margin: 10px 0 20px; } 
+
+
+div.contact { position: absolute; left: 60%; top: 50%; font-size: 2rem; }
+div.contact i { color: #ff0; }

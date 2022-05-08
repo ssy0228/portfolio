@@ -1,0 +1,53 @@
+
+
+/* common */
+
+
+
+
+/* layout */
+main { width: 100vw; height: 100vh; background-color: rgb(39, 39, 39); } 
+section { width: 40%; padding: 40px; color: #fff; margin: 0 auto; } 
+
+h1 { font-size: 3rem; font-family: 'Libre Baskerville', serif; margin: 30vh 0 3vh; } 
+p:first-of-type { font-size: 1.5rem; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 3vh; } 
+p:nth-of-type(2) { font-size: 1rem; margin-bottom: 2vh; } 
+p:nth-of-type(3) { font-size: 1rem; } 
+
+
+/* gear animation */
+.gear1 { width: 200px; height: 200px; background: url(../images/gear.png) no-repeat 0 0; background-size: 100%; position: absolute; top: 60px; right: 80px;
+         -webkit-animation: gear1 0.7s 0.2s infinite; -moz-animation: gear1 0.7s 0.2s infinite; -o-animation: gear1 0.7s 0.2s infinite; animation: gear1 0.7s 0.2s infinite; } 
+
+.gear2 { width: 100px; height: 100px; background: url(../images/gear.png) no-repeat 0 0; background-size: 100%; position: absolute; top: 30px; right: 30px;
+         -webkit-animation: gear2 0.5s 0.5s infinite; -moz-animation: gear2 0.5s 0.5s infinite; -o-animation: gear2 0.5s 0.5s infinite; animation: gear2 0.5s 0.5s infinite; } 
+
+.gear3 { width: 80px; height: 80px; background: url(../images/gear.png) no-repeat 0 0; background-size: 100%; position: absolute; bottom: 30px; left: 30px;
+         -webkit-animation: gear1 0.3s 0.2s infinite; -moz-animation: gear1 0.3s 0.2s infinite; -o-animation: gear1 0.3s 0.2s infinite; animation: gear1 0.3s 0.2s infinite; } 
+
+.gear4 { width: 150px; height: 150px; background: url(../images/gear.png) no-repeat 0 0; background-size: 100%; position: absolute; bottom: 80px; 
+          left: 50px; -webkit-animation: gear2 0.5s 0.5s infinite; -moz-animation: gear2 0.5s 0.5s infinite; -o-animation: gear2 0.5s 0.5s infinite; animation: gear2 0.5s 0.5s infinite; } 
+
+@keyframes popup { 
+ 0% { opacity: 0; } 
+ 40% { opacity: 1; } 
+ 60% { opacity: 1; } 
+ 100% { opacity: 0; } 
+ }
+
+
+@keyframes gear1 { 
+ 0% { transform: rotate(0deg); } 
+ 25% { transform: rotate(90deg); } 
+ 50% { transform: rotate(180deg); } 
+ 75% { transform: rotate(270deg); } 
+ 100% { transform: rotate(360deg); } 
+ }
+
+@keyframes gear2 { 
+  100% { transform: rotate(0deg); } 
+ 75% { transform: rotate(90deg); } 
+ 50% { transform: rotate(180deg); } 
+ 25% { transform: rotate(270deg); } 
+ 0% { transform: rotate(360deg); } 
+ }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <title>Contact Me - FE Dev</title>
+  <link rel="stylesheet" href="css/importcss.css">
+  <link rel="stylesheet" href="css/sub3.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+  <div class="top">
+    <a href="main.html" class="top">H<br>O<br>M<br>E</a>    
+  </div>
+    <a href="#container" id="skipNavi">Go to content</a>
+      <header id="header">
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="sub1.html">Work</a></li>
+          <li><a href="sub2.html">About</a></li>
+          <li><a href="sub3.html">Contact</a></li>
+        </ul>
+        <h1><a href="index.html"><img src="images/SY initial.png" alt="SY initial"></a></h1>
+      </header>
+      <main id="container">
+        <section class="content">
+          <h2>Contact Me!</h2>
+          <div class="container">
+            <form action="mailto:alchemist0228@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
+              <fieldset>
+                <legend class="blind">Contact</legend>
+                <label for="Name" class="blind">이름</label><input type="text" class="play animated fadeInRight" data-delay="0.5" id="Name" placeholder="Full Name" required>
+                <label for="mailaddr" class="blind">이메일</label><input type="email" class="play animated fadeInRight" data-delay="1" name="mailadd" id="mailaddr" placeholder="E-mail" required>
+                <label for="title" class="blind">제목</label><input type="text" class="play animated fadeInRight" data-delay="1.5" id="subject" placeholder="Subject" required>
+                <label for="message" class="blind">메시지</label><textarea class="no_resize play animated fadeInRight" data-delay="2" id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
+                <input type="submit" value="Submit" class="play animated fadeInRight" data-delay="2.5">
+              </fieldset>
+            </form>
+          </div>
+          <div class="contact play animated fadeInRight">
+            <span><i class="fa-solid fa-mobile-screen-button"></i></span>&nbsp;<span>010 - 5128 - 8062</span>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <section id="footer_top">
+          <div class="link">
+            <!-- <a href="#"><img src="images/tistory-logo.svg" alt="tistory-logo"></a> -->
+            <a href="https://github.com/ssy0228"><img src="images/icons8-github-48.svg" alt="github-mark"></a>
+          </div>
+        </section>
+        <section id="footer_btm">
+          <span>Built by Seung-yun Shin</span>
+          <!-- <a href="#" class="go_top"><span>TOP</span></a> -->
+        </section>
+      </footer>
+</body>
+<script src="js/scrollreact.js"></script>
+<script src="js/mail.js"></script>
+<script src="js/browser.js"></script>
+<script src="https://kit.fontawesome.com/f355539ba2.js" crossorigin="anonymous"></script>
+</html>
