@@ -1,5 +1,6 @@
 /* common */
-body { color: #fff; font-family: 'Nunito', 'Libre Baskerville', sans-serif, serif; background-color: rgb(39, 39, 39); font-size: 16px; cursor: none; overflow-y: auto; } 
+body { color: #fff; font-family: 'Nunito', 'Libre Baskerville', sans-serif, serif; 
+      background-color: rgb(39, 39, 39); font-size: 16px; cursor: none; overflow-y: auto; } 
 body::-webkit-scrollbar { width: 9px; background: transparent; }
 body::-webkit-scrollbar-thumb { border-radius: 5px; background: linear-gradient(#fff, gray, #fff);}
 body::-webkit-scrollbar-track { height: 78.8vh; margin: 10.6vh 0; }
@@ -41,6 +42,6 @@ section.content4 { width: 100%; height: 100vh; position: relative; }
 .fadeInDown { transform:translateY(50%); } 
 .fadeInLeft { transform:translateX(50%); } 
 .fadeInRight { transform:translateX(-50%); } 
-.turnIn { transform:scaleX(-1); transform-style: preserve-3d; backface-visibility: hidden; } 
+.turnIn { transform:scaleX(-1); transform-style: preserve-3d; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; } 
 .zoomIn { transform:scale(0.3); } 
 
